@@ -1,4 +1,4 @@
-# Meet-Me-In-The-Middle
+# Meet-Me-Halfway
 
 This is an interactive webpage that provides a map and directions (by car, walking, biking or public transport) for two people looking to meet halfway.
 
