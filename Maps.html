@@ -70,6 +70,7 @@
       }
 
       #right-panel {
+        padding: 20px;
         height: 100%;
         float: right;
         width: 390px;
@@ -150,10 +151,8 @@
       }
 
       #instructions {
-        position: absolute;
-        width: 17%;
-        right: 0%;
-        margin: 40px;
+        width: 100%;
+        font-size:15px;
         line-height: 2em;
         font-family: Roboto;
       }
@@ -172,10 +171,6 @@
     </style>
   </head>
   <body>
-    <div id = "instructions"> <h2> Instructions </h2> 
-      1. Current location is automatically retrieved with HTML5 Geolocation. In the first search bar, simply enter the location where your friend is so a halfway point can be selected and then press "Route!". 
-      <br> <br>
-      2. Then use the second search bar to find places of interest near the halfway mark. These can be viewed with a single click and selected with a double click. You may zoom in or out to change the range of the search. Zooming in on the halfway point will provide places of interest near the halfway point. Press "Route!" again to reroute with the new waypoints selected.</div>
     <div id="floating-panel">
       <h2><strong>Meet Me Halfway! </strong></h2>
       <strong>Start:</strong>
@@ -197,7 +192,14 @@
       <div id = "reset-waypoints" class = "button"> Reset waypoints </div>
       <div id = "route" class = "button"> <strong>Route!</strong> </div>
     </div>
-    <div id="right-panel"></div>
+    <div id="right-panel">
+      <div id = "instructions"> <h2> Instructions </h2> 
+      1. Current location is automatically retrieved with HTML5 Geolocation. In the first search bar, simply enter the location where your friend is so a halfway point can be selected and then press "Route!". 
+      <br> <br>
+      2. Then use the second search bar to find places of interest near the halfway mark. These can be viewed with a single click and selected with a double click. You may zoom in or out to change the range of the search. Zooming in on the halfway point will provide places of interest near the halfway point. Press "Route!" again to reroute with the new waypoints selected.
+      <br> <a href="https://github.com/Gavin777/Meet-Me-Halfway"> View Code on Github</a>
+    </div>
+    </div>
     <div id="map"></div>
     <script>
 
